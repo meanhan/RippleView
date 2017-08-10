@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res/com.xuhan.rippleview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xuhan.rippleview.MainActivity">
+
+    <com.xuhan.rippleview.RippleView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:circleThickness="15dp"
+        custom:drawSpeed="100"
+        custom:circleColor="@android:color/holo_blue_bright"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="circleColor" format="color" />
+    <attr name="circleThickness" format="dimension" />
+    <attr name="drawSpeed" format="integer" />
+
+    <declare-styleable name="WaterRippleView">
+        <attr name="circleColor" />
+        <attr name="circleThickness" />
+        <attr name="drawSpeed" />
+    </declare-styleable>
+
+</resources>
